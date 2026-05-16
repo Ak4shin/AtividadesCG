@@ -51,8 +51,6 @@ Após a geração, extraia os arquivos baixados e coloque-os nos diretórios cor
 
 Repositório contendo atividades desenvolvidas em C++ utilizando OpenGL moderna, GLFW, GLAD e GLM para a disciplina de Computação Gráfica.
 
----
-
 # Cubo3D
 
 Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizando OpenGL.
@@ -66,9 +64,7 @@ Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizan
 * Uso de shaders
 * Projeção 3D utilizando GLM
 
---- 
-
-# Controles - Cubo3D
+# Controles
 
 | Tecla | Função              |
 | ----- | ------------------- |
@@ -106,9 +102,7 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 * Uso de câmera 3D
 * Uso de matrizes Model, View e Projection
 
----
-
-# Controles - AtivViven1
+# Controles
 
 | Tecla | Função                     |
 | ----- | -------------------------- |
@@ -123,16 +117,3 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 | Setas | Move objeto                |
 | + / - | Escala uniforme            |
 | ESC   | Fecha o programa           |
-
----
-
-# Tecnologias Utilizadas
-
-* C++
-* OpenGL
-* GLFW
-* GLAD
-* GLM
-* CMake
-
-
