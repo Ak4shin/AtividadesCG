@@ -48,7 +48,7 @@ set(EXERCISES
     TriangleTex
     SpherePhong
     Cubo3D
-   
+    AtivViven1
 )
 
 add_compile_options(-Wno-pragmas)
