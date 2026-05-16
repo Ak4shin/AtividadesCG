@@ -66,6 +66,25 @@ Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizan
 * Uso de shaders
 * Projeção 3D utilizando GLM
 
+--- 
+
+# Controles - Cubo3D
+
+| Tecla | Função              |
+| ----- | ------------------- |
+| X     | Rotaciona no eixo X |
+| Y     | Rotaciona no eixo Y |
+| Z     | Rotaciona no eixo Z |
+| ESC   | Fecha o programa    |
+
+O projeto `Cubo3D` foi desenvolvido para praticar:
+
+* criação de geometria 3D
+* renderização com OpenGL
+* uso de shaders
+* aplicação de rotações nos eixos X, Y e Z
+* transformações utilizando matrizes
+
 ---
 
 # AtivViven1
