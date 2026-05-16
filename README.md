@@ -64,7 +64,7 @@ Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizan
 * Uso de shaders
 * Projeção 3D utilizando GLM
 
-# Controles
+## Controles
 
 | Tecla | Função              |
 | ----- | ------------------- |
@@ -102,7 +102,7 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 * Uso de câmera 3D
 * Uso de matrizes Model, View e Projection
 
-# Controles
+## Controles
 
 | Tecla | Função                     |
 | ----- | -------------------------- |
