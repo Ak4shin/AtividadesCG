@@ -47,5 +47,73 @@ Após a geração, extraia os arquivos baixados e coloque-os nos diretórios cor
 🚨 **Sem esses arquivos, a compilação falhará!** É necessário colocar esses arquivos nos diretórios corretos, conforme a orientação acima.
 
 =======
-# AtividadesCG
->>>>>>> e3e14c224592a3702f78f5b24dd3e4f6e05d1e78
+# Atividades de Computação Gráfica
+
+Repositório contendo atividades desenvolvidas em C++ utilizando OpenGL moderna, GLFW, GLAD e GLM para a disciplina de Computação Gráfica.
+
+---
+
+# Cubo3D
+
+Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizando OpenGL.
+
+## Funcionalidades
+
+* Renderização de um cubo 3D
+* Uso de VAO e VBO
+* Aplicação de transformações
+* Rotação do objeto
+* Uso de shaders
+* Projeção 3D utilizando GLM
+
+---
+
+# AtivViven1
+
+Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e aplicação de transformações 3D.
+
+## Funcionalidades
+
+* Leitura de arquivos `.OBJ`
+* Exibição de múltiplos objetos 3D
+* Seleção de objetos via teclado
+* Transformações:
+
+  * Rotação
+  * Translação
+  * Escala
+* Aplicação de transformações nos eixos X, Y e Z
+* Destaque visual do objeto selecionado
+* Uso de câmera 3D
+* Uso de matrizes Model, View e Projection
+
+---
+
+# Controles - AtivViven1
+
+| Tecla | Função                     |
+| ----- | -------------------------- |
+| TAB   | Seleciona o próximo objeto |
+| R     | Modo rotação               |
+| T     | Modo translação            |
+| S     | Modo escala                |
+| X/Y/Z | Seleciona eixo             |
+| W     | Aumenta transformação      |
+| Q     | Diminui transformação      |
+| A/D   | Move lateralmente          |
+| Setas | Move objeto                |
+| + / - | Escala uniforme            |
+| ESC   | Fecha o programa           |
+
+---
+
+# Tecnologias Utilizadas
+
+* C++
+* OpenGL
+* GLFW
+* GLAD
+* GLM
+* CMake
+
+
