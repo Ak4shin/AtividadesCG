@@ -49,6 +49,7 @@ set(EXERCISES
     SpherePhong
     Cubo3D
     AtivViven1
+    DesafioM3
 )
 
 add_compile_options(-Wno-pragmas)
