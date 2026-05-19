@@ -83,7 +83,7 @@ O projeto `Cubo3D` foi desenvolvido para praticar:
 
 ---
 
-# Atividade Vivencial 1 - AtivViven1
+# Atividade Vivencial 1
 
 Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e aplicação de transformações 3D.
 
@@ -117,3 +117,5 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 | Setas | Move objeto                |
 | + / - | Escala uniforme            |
 | ESC   | Fecha o programa           |
+
+# Desafio M3
