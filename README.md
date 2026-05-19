@@ -119,3 +119,14 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 | ESC   | Fecha o programa           |
 
 # Desafio M3
+
+Utilizando o mesmo código da atividade vivencial, adicionando suporte a texturas em modelos `.OBJ`.
+
+## Texturas
+
+Nesta atividade foram implementados:
+- leitura de coordenadas de textura (`vt`)
+- leitura de arquivos `.MTL`
+- carregamento automático da textura através de `map_Kd`
+- aplicação de textura nos objetos 3D
+- uso de shaders com `sampler2D`
