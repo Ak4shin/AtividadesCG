@@ -84,14 +84,17 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 * Leitura de arquivos `.OBJ`
 * Exibição de múltiplos objetos 3D
 * Seleção de objetos via teclado
-* Transformações:
-* Rotação
-* Translação
-* Escala
 * Aplicação de transformações nos eixos X, Y e Z
 * Destaque visual do objeto selecionado
 * Uso de câmera 3D
 * Uso de matrizes Model, View e Projection
+
+* Transformações:
+  * Rotação
+  * Translação
+  * Escala
+
+
 
 ## Controles
 
