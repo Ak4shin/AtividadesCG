@@ -80,8 +80,6 @@ O projeto `Cubo3D` foi desenvolvido para praticar:
 * aplicação de rotações nos eixos X, Y e Z
 * transformações utilizando matrizes
 
----
-
 # Atividade Vivencial 1
 
 Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e aplicação de transformações 3D.
