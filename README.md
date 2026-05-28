@@ -126,7 +126,7 @@ Nesta atividade foram implementados:
 
 Utilizando o mesmo código do Desafio M3, foi adicionada iluminação em modelos `.OBJ` com o modelo de Phong.
 
-## Iluminaçâo
+## Iluminação
 
 Nesta atividade foram implementados:
 - leitura de vetores normais (`vn`)
