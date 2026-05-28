@@ -129,3 +129,17 @@ Nesta atividade foram implementados:
 - carregamento automático da textura através de `map_Kd`
 - aplicação de textura nos objetos 3D
 - uso de shaders com `sampler2D`
+
+# Desafio M4
+
+Utilizando o mesmo código do Desafio M3, adicionei iluminação `.OBJ`.
+
+## Iluminaçâo
+
+Nesta atividade foram implementados:
+- leitura de vetores normais (`vn`)
+- leitura dos coeficientes `Ka`, `Kd`, `Ks` e `Ns` do arquivo `.MTL`
+- iluminação ambiente
+- iluminação difusa
+- iluminação especular
+- modelo de iluminação de Phong
