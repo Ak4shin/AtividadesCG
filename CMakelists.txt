@@ -50,6 +50,7 @@ set(EXERCISES
     Cubo3D
     AtivViven1
     DesafioM3
+    DesafioM4
 )
 
 add_compile_options(-Wno-pragmas)
