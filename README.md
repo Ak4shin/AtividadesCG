@@ -75,14 +75,6 @@ Atividade desenvolvida para praticar conceitos básicos de geometria 3D utilizan
 | Z     | Rotaciona no eixo Z |
 | ESC   | Fecha o programa    |
 
-O projeto `Cubo3D` foi desenvolvido para praticar:
-
-* criação de geometria 3D
-* renderização com OpenGL
-* uso de shaders
-* aplicação de rotações nos eixos X, Y e Z
-* transformações utilizando matrizes
-
 # Atividade Vivencial 1
 
 Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e aplicação de transformações 3D.
@@ -93,10 +85,9 @@ Atividade vivencial envolvendo leitura de modelos `.OBJ`, seleção de objetos e
 * Exibição de múltiplos objetos 3D
 * Seleção de objetos via teclado
 * Transformações:
-
-  * Rotação
-  * Translação
-  * Escala
+* Rotação
+* Translação
+* Escala
 * Aplicação de transformações nos eixos X, Y e Z
 * Destaque visual do objeto selecionado
 * Uso de câmera 3D
@@ -133,7 +124,7 @@ Nesta atividade foram implementados:
 
 # Desafio M4
 
-Utilizando o mesmo código do Desafio M3, adicionei iluminação `.OBJ`.
+Utilizando o mesmo código do Desafio M3, foi adicionada iluminação em modelos `.OBJ` com o modelo de Phong.
 
 ## Iluminaçâo
 
