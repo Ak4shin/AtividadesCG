@@ -138,3 +138,26 @@ Nesta atividade foram implementados:
 - iluminação difusa
 - iluminação especular
 - modelo de iluminação de Phong
+
+# Atividade Vivencial 2
+
+Utilizando o mesmo código do Desafio M4, foi implementado um sistema de iluminação de 3 pontos com luz principal, luz de preenchimento e luz de fundo.
+
+## Iluminação de 3 Pontos
+
+Nesta atividade foram implementados:
+- três fontes de luz pontuais
+- luz principal (Key Light)
+- luz de preenchimento (Fill Light)
+- luz de fundo (Back Light)
+- atenuação da luz difusa pela distância
+- posicionamento automático das luzes com base no objeto principal
+- habilitar e desabilitar cada luz individualmente
+
+## Teclas adicionadas
+
+| Tecla | Função |
+|--------|---------|
+| 1 | Liga/desliga a luz principal |
+| 2 | Liga/desliga a luz de preenchimento |
+| 3 | Liga/desliga a luz de fundo |
