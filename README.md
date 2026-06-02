@@ -161,3 +161,29 @@ Nesta atividade foram implementados:
 | 1 | Liga/desliga a luz principal |
 | 2 | Liga/desliga a luz de preenchimento |
 | 3 | Liga/desliga a luz de fundo |
+
+# Desafio M5
+
+Implementação de uma câmera em primeira pessoa utilizando OpenGL e GLM.
+
+## Câmera
+
+Nesta atividade foram implementados:
+- classe Camera
+- movimentação em primeira pessoa
+- controle por teclado (WASD)
+- rotação da câmera com mouse
+- uso de yaw e pitch
+- matriz View utilizando glm::lookAt
+- movimentação independente da taxa de quadros (deltaTime)
+
+## Controles
+
+| Tecla | Função |
+|--------|---------|
+| W | Frente |
+| S | Trás |
+| A | Esquerda |
+| D | Direita |
+| Mouse | Rotaciona a câmera |
+| ESC | Fecha o programa |
