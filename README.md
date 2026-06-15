@@ -141,8 +141,6 @@ Nesta atividade foram implementados:
 
 Utilizando o mesmo código do Desafio M5, foi implementado um sistema de trajetórias para os objetos da cena através de pontos de controle.
 
-Trajetórias
-
 Nesta atividade foram implementados:
 
 criação de pontos de controle para os objetos
