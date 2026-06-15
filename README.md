@@ -137,7 +137,7 @@ Nesta atividade foram implementados:
 | Mouse | Rotaciona a câmera |
 | ESC | Fecha o programa |
 
-#Desafio M6
+# Desafio M6
 
 Utilizando o mesmo código do Desafio M5, foi implementado um sistema de trajetórias para os objetos da cena através de pontos de controle.
 
