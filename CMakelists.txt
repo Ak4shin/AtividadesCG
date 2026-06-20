@@ -54,6 +54,7 @@ set(EXERCISES
     AtivViven2
     DesafioM5
     DesafioM6
+    ProvaGB
 )
 
 add_compile_options(-Wno-pragmas)
