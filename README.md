@@ -161,3 +161,146 @@ remoção dos pontos da trajetória
 | P	| Adiciona um ponto à trajetória |
 | SPACE |	Inicia/pausa a trajetória |
 | C	| Limpa os pontos da trajetória |
+
+# ProvaGB - Diorama 3D
+
+Projeto final da disciplina de Computação Gráfica.
+
+A aplicação consiste em um diorama 3D desenvolvido em C++ utilizando OpenGL, integrando os principais conceitos estudados durante o semestre, incluindo:
+
+* Carregamento de modelos OBJ
+* Carregamento de materiais MTL
+* Aplicação de texturas
+* Iluminação Phong
+* Sistema de iluminação de 3 pontos
+* Câmera livre (teclado e mouse)
+* Seleção e transformação de objetos
+* Animação por curva Bézier
+
+## Dependências
+
+* GLFW
+* GLAD
+* GLM
+* STB Image
+
+## Como compilar
+
+Abra o projeto no Visual Studio e compile normalmente.
+
+Certifique-se de que as bibliotecas GLFW, GLAD, GLM e STB Image estejam corretamente configuradas.
+
+## Como executar
+
+Execute o projeto pelo Visual Studio.
+
+A cena será carregada automaticamente contendo:
+
+* Suzanne
+* Árvores
+* Pedras
+* Chão texturizado
+* Fundos texturizados
+* Sistema de iluminação
+
+## Controles
+
+### Câmera
+
+| Tecla | Função              |
+| ----- | ------------------- |
+| W     | Avançar             |
+| S     | Recuar              |
+| A     | Mover para esquerda |
+| D     | Mover para direita  |
+| Mouse | Rotacionar câmera   |
+
+### Seleção de Objetos
+
+| Tecla | Função                    |
+| ----- | ------------------------- |
+| TAB   | Selecionar próximo objeto |
+
+### Transformações
+
+| Tecla | Função                         |
+| ----- | ------------------------------ |
+| R     | Modo Rotação                   |
+| T     | Modo Translação                |
+| E     | Modo Escala                    |
+| X     | Selecionar eixo X              |
+| Y     | Selecionar eixo Y              |
+| Z     | Selecionar eixo Z              |
+| U     | Aplicar transformação positiva |
+| J     | Aplicar transformação negativa |
+
+### Movimento no Plano
+
+| Tecla | Função                     |
+| ----- | -------------------------- |
+| ↑     | Mover objeto para frente   |
+| ↓     | Mover objeto para trás     |
+| ←     | Mover objeto para esquerda |
+| →     | Mover objeto para direita  |
+
+### Escala Uniforme
+
+| Tecla | Função          |
+| ----- | --------------- |
+| +     | Aumentar escala |
+| -     | Diminuir escala |
+
+### Iluminação
+
+| Tecla | Função                            |
+| ----- | --------------------------------- |
+| 1     | Liga/Desliga luz principal        |
+| 2     | Liga/Desliga luz de preenchimento |
+| 3     | Liga/Desliga luz de fundo         |
+
+### Animação Bézier
+
+| Tecla | Função                  |
+| ----- | ----------------------- |
+| B     | Iniciar/Pausar animação |
+| N     | Reiniciar animação      |
+
+## Estrutura do Projeto
+
+### OBJ
+
+Responsável pelo armazenamento dos modelos 3D.
+
+### MTL
+
+Responsável pelo armazenamento dos materiais dos modelos:
+
+* Ka (ambiente)
+* Kd (difusa)
+* Ks (especular)
+* Ns (brilho)
+
+### Vertex Shader
+
+Processa os vértices da cena e aplica as matrizes:
+
+* Model
+* View
+* Projection
+
+### Fragment Shader
+
+Realiza o cálculo da iluminação Phong, aplicação das texturas e composição final da cor dos objetos.
+
+### Curva Bézier
+
+Utilizada para movimentação automática da Suzanne através de uma trajetória definida por quatro pontos de controle.
+
+## Referências
+
+* OpenGL Documentation
+* GLFW Documentation
+* GLM Documentation
+* LearnOpenGL
+* STB Image
+
