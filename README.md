@@ -304,3 +304,14 @@ Utilizada para movimentação automática da Suzanne através de uma trajetória
 * LearnOpenGL
 * STB Image
 
+## Assets
+
+- Suzanne: modelo utilizado como objeto principal da cena. Disponibilizado pelo professor.
+- Tree.obj: modelo de árvore utilizado no diorama.  
+  Fonte: https://free3d.com/3d-model/white-ash-tree-v1--666546.html
+- rock1.obj: modelo de pedra utilizado no diorama.  
+  Fonte: https://free3d.com/3d-model/rock-pack-5-piece-4-texture-868419.html
+- grass1.png: textura utilizada no chão.  
+  Fonte: https://www.magnific.com/br/fotos-premium/teste-padrao-e-textura-da-grama-verde-para-o-fundo-fechar-se_4247703.htm
+- fundo_floresta3.png: textura utilizada como plano de fundo. Gerada com auxílio do ChatGPT.
+
